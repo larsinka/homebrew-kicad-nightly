@@ -2,9 +2,9 @@ cask "kicad-nightly" do
   version "universal-20230204-0235-e8397a33bb"
   sha256 "d1cd5cb30510815399ea1a8d3817be815e6e13098525272695e57da63e7e7a03"
 
-  url "https://kicad-downloads.s3.cern.ch/osx/nightly/kicad-unified-#{version}.dmg",
-      verified: "kicad-downloads.s3.cern.ch/"
-  appcast "https://kicad-downloads.s3.cern.ch/?delimiter=/&prefix=osx/nightly/"
+  url "https://downloads.kicad.org/kicad/macos/explore/nightlies/download/kicad-unified-#{version}.dmg",
+      verified: "downloads.kicad.org/"
+  appcast "https://downloads.kicad.org/?delimiter=/&prefix=osx/nightly/"
   name "KiCad"
   desc "Electronics design automation suite"
   homepage "https://kicad.org/"
